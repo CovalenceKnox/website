@@ -1,0 +1,9 @@
+@font-face {
+    font-family: ailerons;
+    src: url(../assets/fonts/Ailerons-Typeface.otf);
+}
+
+.ailerons {
+    font-family: ailerons, Arial, Helvetica, sans-serif !important;
+    font-size: 32px !important;
+}
