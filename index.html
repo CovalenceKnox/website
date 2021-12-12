@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>Covalence</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
@@ -24,34 +24,43 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#cheese">Bio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Music</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Photos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Social Media</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Merch</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">EPK</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#music">Music</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#merch">Merch</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#epk">EPK</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
         <header class="masthead text-center text-white">
-            <div class="masthead-content">
-                <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                    <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
-            </div>
-            <div class="bg-circle-1 bg-circle"></div>
-            <div class="bg-circle-2 bg-circle"></div>
-            <div class="bg-circle-3 bg-circle"></div>
-            <div class="bg-circle-4 bg-circle"></div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/spinny/01.png" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/spinny/02.png" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </header>
-        <!-- Content section 1-->
-        <section id="scroll">
+        <!-- Bio IMGLEFT -->
+        <section id="bio">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -59,15 +68,21 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4" id="cheese">My favorite cheese</h2>
-                            <p>is none of your business. (not nacho)</p>
+                            <h2 class="display-4" id="cheese">Bio</h2>
+                            <p>
+                                Covalence is an alt metal/post grunge band from Knoxville,
+                                TN, USA. With influences such as Tool, Deftones, and Pearl Jam,
+                                their music blends hard hitting guitar riffs with dreamy and dark
+                                atmosphere. They have released one EP, Alpha Decay, and are
+                                currently working on a full length album.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Content section 2-->
-        <section>
+        <!-- Music IMGRIGHT -->
+        <section id="music">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
@@ -75,15 +90,49 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">We salute you!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">Music</h2>
+                            <p>La la la!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Content section 3-->
-        <section>
+        <!-- Events IMGLEFT -->
+        <section id="events">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4" id="cheese">Events</h2>
+                            <p>
+                                playing a show at your mom's house tonight but you are not invited
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Merch IMGRIGHT -->
+        <section id="merch">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Merch</h2>
+                            <p>now selling Covalence branded LSD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Socials IMGLEFT -->
+        <section id="socials">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -91,40 +140,24 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
-                            <p>text text text testing 123 mike check... anybody named mike?</p>
+                            <h2 class="display-4">Socials</h2>
+                            <p>i hate socialism and enjoy having the worst health insurance in the developed world</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-       <!-- Content section 2-->
-       <section>
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="p-5">
-                        <h2 class="display-4">We salute you!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-        <!-- Content section 3-->
-        <section>
+        <!-- epk IMGRIGHT -->
+        <section id="epk">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
                     </div>
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
-                            <p>text text text testing 123 mike check... anybody named mike?</p>
+                            <h2 class="display-4">Presskit</h2>
+                            <p>my friend greg says he thinks that we are pretty good</p>
                         </div>
                     </div>
                 </div>
